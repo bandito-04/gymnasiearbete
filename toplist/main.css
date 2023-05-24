@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Lato;
+  src: url("Lato-Light.ttf")
+}
+
+body{
+  background-color: #370c4a;
+  height: 100%;
+  font-family: Lato;
+}
+
+.box {
+  background-color: #734587;
+}
+
+.box-img {
+  min-width: 300px;
+  max-width: 50%;
+}
+
+pre {
+  max-height: 500px;
+  overflow: auto;
+}
+
+input,
+select {
+  background-color: #e1e1e1 !important;
+}
+
+table thead tr td,
+table thead tr th,
+table tfoot tr td,
+table tfoot tr th {
+  background-color: #212529;
+  color: #212529;
+}
+
+.toplist {
+  max-width: 1100px;
+  width: 100%;
+  background-color: #e1e1e1 !important;
+}
+
+.toolbar {
+  margin-right: 10px;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info {
+  margin-bottom: 20px;
+}
+
+.nohigh {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.nohigh::selection {
+  background: transparent;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #734587;
+  border-color: #734587;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #370c4a;
+  border-color: #370c4a;
+}
+
+#username, #password{
+  z-index: 2;
+}
+
+pre{
+  color: fff;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
